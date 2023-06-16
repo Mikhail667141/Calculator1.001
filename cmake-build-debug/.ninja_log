@@ -1,5 +1,5 @@
 # ninja log v5
-0	524	7086523664865761	CMakeFiles/Calculator.dir/Calculation.cpp.obj	384dd1618aca1a58
-10	922	7086564530140029	build.ninja	d3f6b216d47151e1
-1	94	7086215059116975	CMakeFiles/Calculator.dir/main.cpp.obj	b76cce614acbecda
-525	792	7086523666147311	Calculator.exe	3a70f5b0e6c5d538
+7	683	7086615694060064	CMakeFiles/Calculator.dir/Calculation.cpp.obj	384dd1618aca1a58
+10	922	7086615811297815	build.ninja	d3f6b216d47151e1
+0	382	7086615691071106	CMakeFiles/Calculator.dir/main.cpp.obj	b76cce614acbecda
+683	945	7086615695169920	Calculator.exe	3a70f5b0e6c5d538

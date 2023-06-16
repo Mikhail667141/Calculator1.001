@@ -8,7 +8,7 @@ void Calculator::run()
     setlocale(0, "");
     std::cout << "Hello my friend!" << std::endl;
     std::cout << "Добро пожаловать в программу калькулятор!" << std::endl;
-    std::cout << "Для завершения программы введите 'q'." << std::endl;
+
 
     while (true)
     {
@@ -36,22 +36,21 @@ void Calculator::get_two_numbers()
 
 double Calculator::get_number_from_input(const std::string& prompt)
 {
+    double number;
     while (true)
     {
         std::cout << prompt;
-        std::string input;
-        if (!(std::cin >> input))
+        if (!(std::cin >> number) || std::cin.peek() != '\n')
         {
             std::cout << "Некорректный ввод. Пожалуйста, введите числовое значение." << std::endl;
             clear_input();
         }
-        else if (is_exit_symbol(input))
+        else
         {
-            std::cout << "Выход из программы." << std::endl;
-            std::exit(0);
+            break;
         }
-
     }
+    return number;
 }
 
 Operation Calculator::get_operation_choice()
@@ -63,7 +62,8 @@ Operation Calculator::get_operation_choice()
                   << "1 - сложение" << std::endl
                   << "2 - вычитание" << std::endl
                   << "3 - умножение" << std::endl
-                  << "4 - деление" << std::endl;
+                  << "4 - деление" << std::endl
+                  << "Для завершения программы введите 'q'." << std::endl;
 
         std::string input;
         if (!(std::cin >> input))
