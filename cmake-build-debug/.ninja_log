@@ -3,3 +3,6 @@
 10	922	7086615811297815	build.ninja	d3f6b216d47151e1
 0	382	7086615691071106	CMakeFiles/Calculator.dir/main.cpp.obj	b76cce614acbecda
 683	945	7086615695169920	Calculator.exe	3a70f5b0e6c5d538
+1	378	7086626586613291	CMakeFiles/Calculator.dir/main.cpp.obj	b76cce614acbecda
+6	686	7086626589671586	CMakeFiles/Calculator.dir/Calculation.cpp.obj	384dd1618aca1a58
+686	960	7086626590826351	Calculator.exe	3a70f5b0e6c5d538

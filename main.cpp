@@ -1,7 +1,6 @@
 #include "Calculation.hpp"
 
-int main()
-{
+int main(){
     Calculator calculator{};
     calculator.run();
 
